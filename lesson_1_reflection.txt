@@ -1,0 +1,58 @@
+Question: How did viewing the difference between two versions help you spot the bug?
+  Answer:
+      The minus (-) and plus (+) signs which indicated what has been removed and what
+      has been added respectively, helped me to easily spot the bug and it also
+      tells what file had the bug.
+
+Question: How could having easy access to the entire history of a file make you
+  a more efficient programmer in the long term?
+  Answer:
+      With access to history of the file, you could easily compare what you have
+      changed in each version of the file and how it has made your code better
+      by comparing the results from running each version of the file.
+
+Question: What do you think are the pros and cons of manually choosing when to
+  create a commit, like you do in Git, vs having versions automatically saved
+  like Google docs does?
+  Answer:
+       With manually choosing when to commit, you are in control of when to
+       commit depending on the change you have made.
+       On the other hand, having versions automatically saved helps when you may
+       get so engrossed in work that you forget to change after some major
+       changes. Also, if you have any computer problems and the computer goes
+       off before you've actually made a change, automatic saving comes very
+       handy.
+
+Question: Why do you think some version control systems, like Git, allow saving
+  multiple files in one commit, while others, like Google docs, treat each file
+  separately?
+  Answer:
+      I think Git allows saving multiple files in one commit because most files
+      in a particular project are interrelated, making a major change on a new
+      feature could effect more than one file in the project as such saving them
+      in one commit makes the commit easier to understand and manage.
+
+Question: How can you use the commands git log and git diff to view the history
+  of files?
+  Answer:
+      The git log command gives all the list of all the commits made in the
+      repository, the date they were made and the commit messages which help
+      give meaning to each commit that was made. Meanwhile, the git diff command
+      compares any two commits and clearly shows the differences between these
+      commits, both the lines that were inserted to the newer version and the
+      lines that were deleted from the older version.
+
+Question: How might using version control make you more confident to make
+  changes that could break something?
+  Answer:
+      Version control makes you more confident to make changes that could break
+      something because it has the git checkout command.
+      Git checkout cancels a commit, i.e the commit you pass to the command is
+      cancelled. As such, you can view your code before that commit was made
+      that returns things back to the way they were before that commit was made.
+
+Question: How do you want to use Git?
+  Answer:
+      I would like to use Git to keep up with my code versions and collaborate
+      and share code with team mates on github and gitlab.
+      
