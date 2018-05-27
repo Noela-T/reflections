@@ -12,3 +12,47 @@ Question: How is staging area different from working directory and the repositor
       sure if you want to commit yet, but you want to save it, you can add the
       files to staging area. They won't be committed, but the changes won't get
       lost either.
+
+Question: How can you use the staging area to make sure you have one commit per
+  logical change?
+  Answer:
+      The staging are shows the files which have been I have added which have
+      changes. The staging area is useful to cross-check if actually you want
+      to commit the files in which you've made changes in them.
+      You can add just the files which are related to that logical change to the
+      staging area at one time before committing them.
+
+Question: What are some situations when branches would be helpful in keeping your
+  history organized? How would branches help?
+  Answer:
+      Branches would be helpful when you have an idea on how to fix a bug but
+      you aren't too sure about the output. Also, branches will come handy when
+      you think of a new feature but not sure if implementing it would have
+      consequences on the entire project.
+      Branches would help you to work on these independent of the original code
+      so it doesn't change what you don't want to change or are not sure of yet.
+      But still you can run you hunch as a demo to see what it actually does.
+
+Question: How do diagrams help you visualize the branch structure?
+  Answer:
+      Diagrams make it easier to see exactly where a new commit fits in a repository.
+      They point to the parent of each commit making it possible to trace/reach
+      any particular commit and not point or checkout just commits where the
+      changes can be lost but trace branches.
+
+Question: What is the result of merging two branches together? Why do we represent
+  it in the diagram the way we do?
+  Answer:
+      Merging two branches creates one main branch from them and that way all
+      the commits from the two distinct branches that were merged can be traced
+      from the newly formed branch.
+      It is represented in the diagram as having two "parents". This is done in
+      order to save all the commits made on both branches so they are not lost
+      and they can easily be reached.
+
+Question: What are the pros and cons of Git's automatic vs. always doing merges
+  manually?
+  Answer:
+      Git not doing automatic merging adds a bit more flexibility to Git. This
+      allows helps users to know what exactly they are merging to avoid more
+      bugs and redundancies.
