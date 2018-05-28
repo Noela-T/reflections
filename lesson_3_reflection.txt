@@ -29,3 +29,11 @@ Question: Describe the difference between forks, clones, and branches. When
       you can easily work on the files.
       Branches are used to make changes to files without necessarily affecting
       the original. Useful for adding new features and experimenting with your work.
+
+Question: What is the benefit of having a copy of the last known state of the
+  remote stored locally?
+  Answer:
+      It is very useful when you plan to work later and the environment may not
+      permit you to have internet access. A copy of the last known state of the
+      remote stored locally allows you continue work with/without internet.
+      
