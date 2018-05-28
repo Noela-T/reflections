@@ -36,4 +36,15 @@ Question: What is the benefit of having a copy of the last known state of the
       It is very useful when you plan to work later and the environment may not
       permit you to have internet access. A copy of the last known state of the
       remote stored locally allows you continue work with/without internet.
-      
+
+Question: How would you collaborate without using Git or GitHub? What would be
+  easier, and what would be harder?
+  Answer:
+      I would probably share a copy of the code each time I make a change via
+      mail or googledocs or dropbox.
+      Changes would be easily updated and I would share the code only with who
+      I want to, it won't be public like on Github.
+      It would be harder to easily see errors and make corrections.
+      It would be harder to copy and paste code each time I change it and it
+      would also be harder for whoever am sharing it with easily see the changes
+      made.
