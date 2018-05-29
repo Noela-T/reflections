@@ -48,3 +48,14 @@ Question: How would you collaborate without using Git or GitHub? What would be
       It would be harder to copy and paste code each time I change it and it
       would also be harder for whoever am sharing it with easily see the changes
       made.
+
+Question: When would you want to make changes in a separate branch rather than
+  directly in master? What benefits does each approach have?
+  Answer:
+      Making unsure or experimental changes on a separate branch rather than
+      master enables you to work without of fear of corrupting your master branch.
+      Using a separate branch is beneficial as it makes you able of trying out
+      new things and even have another person cross-check it before finally
+      merging it with the master branch.
+      Using the master branch only makes it less stressful in making and updating
+      changes since everything can be found on the same branch.
